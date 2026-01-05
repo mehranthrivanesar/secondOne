@@ -14,3 +14,5 @@ jobs:
         run: ls -la
       - name: Simple check
         run: echo "✅ PR check ran successfully"
+      - name: Force fail (demo)
+        run: exit 1
